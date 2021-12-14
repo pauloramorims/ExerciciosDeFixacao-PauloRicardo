@@ -4,7 +4,7 @@ class Questao1:public MenuPrincipal
 {
 private:
 	float numero[3];
-	float mediaAritimetica=0;
+	float mediaAritimetica = 0.F;
 
 public:
 	void receberNumero();

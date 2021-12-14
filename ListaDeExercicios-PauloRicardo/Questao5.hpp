@@ -1,3 +1,7 @@
+//Programador: Paulo Ricardo Amorim Silva
+//Data: 14-12-2021
+//Objetivo: Realizar a conversao de Graus Centigrados para Fahrenheit
+
 #pragma once
 #include "MenuPrincipal.hpp"
 
@@ -8,7 +12,7 @@ private:
 	float grausCentigrados = 0.F;
 	float grausFahrenheit  = 0.F;
 public:
-	float centParaFahrenheit();
-	void  recebeGCentigrados();
+	void  recebeGCentigrados();  //Recebe o valor e verifica se é um numero
+	float centParaFahrenheit();  //Retorna o valor da conversao
 };
 

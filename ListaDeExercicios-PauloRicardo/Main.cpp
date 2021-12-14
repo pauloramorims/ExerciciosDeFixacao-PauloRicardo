@@ -4,6 +4,8 @@
 #include "Questao2.hpp"
 #include "Questao3.hpp"
 #include "Questao4.hpp"
+#include "Questao5.hpp"
+#include "Questao6.hpp"
 
 using namespace std;
 
@@ -45,8 +47,21 @@ int main()
 	cout << "Seu salario LIQUIDO eh de: R$" << salarioDoProfessor.calculaSalarioliquido() << endl;
 
 	//-----------------------------------------------------------------------------------------------------------------------
+
+	Questao5 converteParaF;
+	cout << "Valor em graus centigrados (C): ";
+	converteParaF.recebeGCentigrados();
+	cout << "Conversao para Fahrenheit realiza: " << converteParaF.centParaFahrenheit() << " F" << endl << endl;
+	
+	//-----------------------------------------------------------------------------------------------------------------------
 	*/
 
+	Questao6 combustivelGasto;
 
+	combustivelGasto.recebeVelocidade();
+
+	combustivelGasto.recebeTempoGasto();
+
+	combustivelGasto.calculaDistancia();
 
 }

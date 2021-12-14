@@ -146,6 +146,7 @@
     <ClCompile Include="Questao3.cpp" />
     <ClCompile Include="Questao4.cpp" />
     <ClCompile Include="Questao5.cpp" />
+    <ClCompile Include="Questao6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MenuPrincipal.hpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Questao3.hpp" />
     <ClInclude Include="Questao4.hpp" />
     <ClInclude Include="Questao5.hpp" />
+    <ClInclude Include="Questao6.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

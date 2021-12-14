@@ -4,7 +4,7 @@ class Questao2 :public MenuPrincipal
 {
 private:
 	float catetos[2];
-	float hipotenusa = 0;
+	float hipotenusa = 0.F;
 
 public:
 	void receberCatetos();
