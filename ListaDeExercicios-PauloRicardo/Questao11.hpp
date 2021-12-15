@@ -8,7 +8,7 @@
 class Questao11 : public MenuPrincipal
 {
 public:
-	void imprime100a1();
+	void imprime100a1();  //Metodo que realiza a impressao
 
 };
 

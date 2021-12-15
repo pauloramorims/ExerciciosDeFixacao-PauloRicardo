@@ -14,7 +14,7 @@ float Questao10::aliquotaINSS()
 	if      (salarioBruto <= 600.0F)                            { return 0.0F ; }
 	else if (salarioBruto > 600.00F && salarioBruto <= 1200.0F) { return 0.2F ; }
 	else if (salarioBruto > 1200.0F && salarioBruto <= 2000.0F) { return 0.25F; }
-	else if (salarioBruto > 2000.0F)                            { return 0.30F; }
+	else                                                        { return 0.30F; }
 }
 
 float Questao10::calculaSalarioliquido()

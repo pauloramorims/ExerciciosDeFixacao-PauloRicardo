@@ -8,7 +8,7 @@
 class Questao4 :public MenuPrincipal
 {
 private:						
-	int   aulas          = 0  ;
+	float aulas          = 0  ;
 	float valorPorHAula  = 0.F;    //0.F faz com que a variável inicia-se com um valor float
 	float salarioBruto   = 0.F;
 	float salarioLiquido = 0.F;

@@ -21,5 +21,5 @@ void  Questao7::recebeNumero()
 float Questao7::condicionalSoma()
 {
 	if      (soma  > 20.F) { return soma + 8.F; }
-	else if (soma <= 20.F) { return soma - 5.F; }
+	else                   { return soma - 5.F; }
 }
