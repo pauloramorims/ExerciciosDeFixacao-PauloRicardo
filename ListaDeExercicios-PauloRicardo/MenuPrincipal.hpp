@@ -1,3 +1,7 @@
+//Programador: Paulo Ricardo Amorim Silva
+//Data: 14-12-2021
+//Objetivo: Validar as entradas do usuário
+
 #pragma once
 #include <iostream>
 class MenuPrincipal

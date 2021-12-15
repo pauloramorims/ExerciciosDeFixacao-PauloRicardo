@@ -142,20 +142,32 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MenuPrincipal.cpp" />
     <ClCompile Include="Questao1.cpp" />
+    <ClCompile Include="Questao10.cpp" />
+    <ClCompile Include="Questao11.cpp" />
+    <ClCompile Include="Questao12.cpp" />
     <ClCompile Include="Questao2.cpp" />
     <ClCompile Include="Questao3.cpp" />
     <ClCompile Include="Questao4.cpp" />
     <ClCompile Include="Questao5.cpp" />
     <ClCompile Include="Questao6.cpp" />
+    <ClCompile Include="Questao7.cpp" />
+    <ClCompile Include="Questao8.cpp" />
+    <ClCompile Include="Questao9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MenuPrincipal.hpp" />
     <ClInclude Include="Questao1.hpp" />
+    <ClInclude Include="Questao10.hpp" />
+    <ClInclude Include="Questao11.hpp" />
+    <ClInclude Include="Questao12.hpp" />
     <ClInclude Include="Questao2.hpp" />
     <ClInclude Include="Questao3.hpp" />
     <ClInclude Include="Questao4.hpp" />
     <ClInclude Include="Questao5.hpp" />
     <ClInclude Include="Questao6.hpp" />
+    <ClInclude Include="Questao7.hpp" />
+    <ClInclude Include="Questao8.hpp" />
+    <ClInclude Include="Questao9.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

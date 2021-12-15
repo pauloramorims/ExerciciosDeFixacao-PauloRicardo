@@ -16,6 +16,7 @@ float MenuPrincipal::validaNumero()
 float MenuPrincipal::validaNNegativo()
 {
 	numeroValidado = validaNumero();
+
 	std::cout << std::endl;
 
 	if (numeroValidado <= 0)

@@ -1,3 +1,7 @@
+//Programador: Paulo Ricardo Amorim Silva
+//Data: 14-12-2021
+//Objetivo: Calcular a distancia e o combustivel gasto, imprimir todos os valores envolvidos na operacao
+
 #pragma once
 #include "MenuPrincipal.hpp"
 
@@ -11,21 +15,10 @@ private:
 	float distancia    =  0.F;
 
 public:
-	void  recebeVelocidade()   ;
-	void  recebeTempoGasto()   ;
-	float getVelocidade() const;
-	float getTempoGasto() const;
-	float calculaDistancia()   ;
-	float calculaCombustGasto();
+	void  recebeVelocidade()   ; //Usuario entra com o valor da velocidade media
+	void  recebeTempoGasto()   ; //Usuario entra com o valor do tempo gasto
+	float getVelocidade() const; //Retorna a velocidade
+	float getTempoGasto() const; //Retorna o tempo
+	float calculaDistancia()   ; //Retorna o calculo da distancia percorrida
+	float calculaCombustGasto(); //Retorna o calculo do combustivel gasto
 };
-
-/*
-Efetuar o cálculo da quantidade de litros de combustível gastos em
-uma viagem, sabendo-se que o carro faz 12 km com um litro. Deverão 
-ser fornecidos o tempo gasto na viagem e a velocidade média. 
-O programa em C++ deverá apresentar os valores da:
-- velocidade média; 
-- tempo gasto na viagem; 
-- distância percorrida;
-- quantidade de litros utilizados na viagem.
-*/

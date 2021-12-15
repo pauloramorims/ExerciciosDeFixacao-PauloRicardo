@@ -1,3 +1,7 @@
+//Programador: Paulo Ricardo Amorim Silva
+//Data: 14-12-2021
+//Objetivo: Calcular a hipotenusa de um triangulo retangulo
+
 #include "Questao2.hpp"
 #include <iostream>
 #include <cmath>

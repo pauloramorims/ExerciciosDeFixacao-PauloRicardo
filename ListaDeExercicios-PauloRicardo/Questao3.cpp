@@ -1,3 +1,7 @@
+//Programador: Paulo Ricardo Amorim Silva
+//Data: 14-12-2021
+//Objetivo: Calcular o desconto de um produto
+
 #include "Questao3.hpp"
 
 void Questao3::receberInformacoes()
